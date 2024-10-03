@@ -1,0 +1,49 @@
+body {
+  background-color: #4a4a4a;
+  font-family: Arial, sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white; /* Cor de fundo do container */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none; /* Remove as bolinhas da lista */
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9; /* Cor de fundo do item da lista */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative; /* Para posicionar o botão de remover */
+  color: black;
+}
+
+.remove {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.concluida {
+  color: green;
+}
+
+.done-sign {
+  margin-left: 10px; /* Margem para o sinal de feito */
+  color: green; /* Cor do sinal de feito */
+}
